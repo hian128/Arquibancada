@@ -110,7 +110,7 @@ const SearchContainer = styled.div`
   }
 `;
 
-export function Header() {
+function Header() {
   return (
     <HeaderContainer>
       {/* 1. Logótipo */}
@@ -121,7 +121,7 @@ export function Header() {
 
       {/* 2. Menu de Navegação */}
       <NavMenu>
-        <NavLink to="/" end>
+        <NavLink to="/campeonatos" end>
           Campeonatos
         </NavLink>
 
