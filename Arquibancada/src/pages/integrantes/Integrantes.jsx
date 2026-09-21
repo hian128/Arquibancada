@@ -1,5 +1,4 @@
-import CardIntegrantes from "../components/CardIntegrantes";
-import Footer from "../components/Footer"
+import CardIntegrantes from "../../components/CardIntegrantes";
 import styled from "styled-components"
 
 const CardsContainer = styled.div`
@@ -29,7 +28,6 @@ export default function Integrantes() {
                 <CardIntegrantes nome="Evelyn Gregorio"
                     imagem="https://placehold.co/400x250"
                     descricao="Texto generico"
-                    mostrar={true}
                     urlGit=""
                     urlLinked=""
                     urlInsta=""
@@ -37,15 +35,13 @@ export default function Integrantes() {
                 <CardIntegrantes nome="Guilherme Hermes"
                     imagem="https://placehold.co/400x250"
                     descricao="Texto generico"
-                    mostrar={true}
                     urlGit="https://github.com/GuiHermes"
-                    urlLinked=""
-                    urlInsta=""
+                    urlLinked="teste"
+                    urlInsta="teste"
                 />
                 <CardIntegrantes nome="Hian Oliveira"
                     imagem="https://placehold.co/400x250"
                     descricao="Texto generico"
-                    mostrar={true}
                     urlGit=""
                     urlLinked=""
                     urlInsta=""
@@ -53,7 +49,6 @@ export default function Integrantes() {
                 <CardIntegrantes nome="Matheus Rodrigues"
                     imagem="https://placehold.co/400x250"
                     descricao="Texto generico"
-                    mostrar={true}
                     urlGit=""
                     urlLinked=""
                     urlInsta=""
@@ -61,14 +56,12 @@ export default function Integrantes() {
                 <CardIntegrantes nome="Kayan"
                     imagem="https://placehold.co/400x250"
                     descricao="Texto generico"
-                    mostrar={false}
                     urlGit=""
                     urlLinked=""
                     urlInsta=""
                 />
             </CardsContainer>
 
-            <Footer destino="/" nome="Home" mostrar={true} />
         </div>
     );
 }
