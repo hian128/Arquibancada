@@ -13,7 +13,7 @@ export default function pageFooter(props) {
                 <Nav>
                     {mostrar && (
                         <>
-                            <Rota to="/campeonatos" end>
+                            <Rota to="/campeonatos">
                                 Campeonatos
                             </Rota>
 
