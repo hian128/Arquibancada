@@ -5,7 +5,7 @@ import {
     Nome,
     Serie,
     LinkClube
-} from "./CardClubeStyle";
+} from "./CardClube.styles";
 
 export default function CardClube() {
     const clube = {
